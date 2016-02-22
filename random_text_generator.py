@@ -22,5 +22,4 @@ def main():
 		output_file.write(new_line + "\n")
 
 if __name__ == "__main__":
-    main()  
-
+    main()
