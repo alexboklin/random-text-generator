@@ -1,8 +1,9 @@
 import random
 import string
 
-wordlength_frequences = [1,2,2,3,3,3,4,4,4,4,5,5,5,6,6,7]   	# wordlengths:       1 2 3 4 5 6 7
-																# their frequencies: 1 2 3 4 3 2 1       
+# wordlengths:       1 2 3 4 5 6 7
+# their frequencies: 1 2 3 4 3 2 1 
+wordlength_frequences = [1,2,2,3,3,3,4,4,4,4,5,5,5,6,6,7]   	
 
 def generate_n_words(n):
 	for i in range(n):
