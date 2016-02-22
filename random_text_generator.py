@@ -12,7 +12,6 @@ def generate_n_words(n):
 		for letter in range(wordlength):
 			letter = random.choice(string.ascii_lowercase)
 			word += letter
-
 		yield word	
 
 def main(): 
