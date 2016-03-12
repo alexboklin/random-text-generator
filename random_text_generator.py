@@ -3,7 +3,7 @@ import string
 
 # wordlengths:       1 2 3 4 5 6 7
 # their frequencies: 1 2 3 4 3 2 1
-wordlength_frequences = [1,2,2,3,3,3,4,4,4,4,5,5,5,6,6,7]
+wordlength_frequences = [1] + [2] * 2 + [3] * 3 + [4] * 4 + [5] * 3 + [6] * 2 + [7]
 
 vowels = "aeiou"
 
